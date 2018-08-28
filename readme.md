@@ -3,7 +3,6 @@
 [![npm](https://img.shields.io/npm/v/botkit.svg)](https://www.npmjs.com/package/botkit)
 [![David](https://img.shields.io/david/howdyai/botkit.svg)](https://david-dm.org/howdyai/botkit)
 [![npm](https://img.shields.io/npm/l/botkit.svg)](https://spdx.org/licenses/MIT)
-[![bitHound Overall Score](https://www.bithound.io/github/howdyai/botkit/badges/score.svg)](https://www.bithound.io/github/howdyai/botkit)
 
 **Botkit is the leading developer tool for building chat bots, apps and custom integrations for major messaging platforms.**
 
@@ -11,8 +10,6 @@ Botkit offers everything you need to design, build and operate an app:
 
 * Easy-to-extend starter kits
 * Fully-featured SDK with support for all major platforms
-* Content management and design tools (with [Botkit Studio](https://studio.botkit.ai))
-* Built-in analytics and CRM tools (with [Botkit Studio](https://studio.botkit.ai))
 * [Tons of plugins and middlewares](https://botkit.ai/docs/readme-middlewares.html)
 
 Plus, Botkit works with all the NLP services (like Microsoft LUIS and IBM Watson), can use any type of database you want, and runs on almost any hosting platform.
@@ -20,20 +17,11 @@ Plus, Botkit works with all the NLP services (like Microsoft LUIS and IBM Watson
 # Install Botkit
 Botkit is a Node.js module, and works with Node and npm.
 
-### **Botkit Studio**
-
-Botkit Studio is a dashboard and IDE designed to super-charge Botkit. It includes a web-based interface for building and managing dialog, an activity console, third party integrations, and advanced analytics tools like customer segmenting, conversion funnels, and user retention metrics.
-
-Sign up for a free Botkit Studio account, and it will guide you through the process to create, configure and deploy your Botkit app!
-
-**[![Sign up for Botkit Studio](docs/studio.png)](https://studio.botkit.ai/signup?code=readme)**
-
-
 ### **Remix on Glitch**
 
 Want to dive right in? [Remix one of our starter kits on Glitch](https://glitch.com/botkit). You'll start with a fully functioning app that you can edit and run from the browser!
 
- [![Remix on Glitch](docs/glitch.png)](https://glitch.com/botkit)
+ [![Remix on Glitch](https://botkit.ai/docs/glitch.png)](https://glitch.com/botkit)
 
 
 ### **Command Line Interface**
@@ -168,9 +156,7 @@ controller.middleware.send.use(function(bot, message, next) {
 * [Logging](https://botkit.ai/docs/logging.html)
 * Contributing to Botkit
   * [Contributing to Botkit Core](CONTRIBUTING.md)
-  * [Building Middleware/plugins](docs/howto/build_middleware.md)
-  * [Building platform connectors](docs/howto/build_connector.md)
-
+  * [Building platform connectors](https://botkit.ai/docs/howto/build_connector.html)
 
 # Community & Support
 

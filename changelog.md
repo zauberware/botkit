@@ -4,6 +4,39 @@
 
 [Want to contribute? Read our guide!](https://github.com/howdyai/botkit/blob/master/CONTRIBUTING.md)
 
+# 0.6.16
+
+* Fixed issue in Cisco adapter introduced in 0.6.15
+
+# 0.6.15
+
+* [The documentation has moved to a dedicated docs site!](https://botkit.ai/docs) The transition begun 3 versions ago is now complete. [Any future changes to documentation should be submitted to this repo](https://github.com/howdyai/botkit-docs).
+
+Some minor tweaks:
+
+* Update to the way Webex Teams bots identify themselves [PR #1397](https://github.com/howdyai/botkit/pull/1397) Thank you to @jpjpjp
+
+* Externalize the utterances object [#1085](https://github.com/howdyai/botkit/pull/1085) thanks to @hannanabdul55
+
+* For Botkit web adapter, add `typingDelayFactor` config option, as well as `controller.setTypingDelayFactor()` to change how fast the bot types. Values between 0-1 will speed up the bot's typing, values above 1 will slow it down. - [Docs](https://botkit.ai/docs/readme-web.html#controllersettypingdelayfactordelayfactor) - [PR #1387](https://github.com/howdyai/botkit/pull/1387) Thanks to @schmitzl
+
+Several updates to the TypeScript definitions:
+
+* Add `collectResponse` to CoreBot's public types [#1358](https://github.com/howdyai/botkit/pull/1358) thanks to @pducks32
+* Add missing methods to d.ts [#1359](https://github.com/howdyai/botkit/pull/1359) thanks to @ypresto
+* Updating typings for interactive messages [#1318](https://github.com/howdyai/botkit/pull/1318) thanks to @jaalger
+
+Thanks to frequent contributor @ouadie-lahdioui for the updates to Facebook Messenger:
+
+* Add FB scheduled broadcast - [Docs](https://botkit.ai/docs/readme-facebook.html#cancel-a-scheduled-broadcast) - [#1354](https://github.com/howdyai/botkit/pull/1354)
+* Add FB payment settings API - [Docs](https://botkit.ai/docs/readme-facebook.html#controllerapimessenger_profilepayment_settings) - [#1369](https://github.com/howdyai/botkit/pull/1369)
+* Add FB Thread owner API - [Docs](https://botkit.ai/docs/readme-facebook.html#get-thread-owner) - [#1353](https://github.com/howdyai/botkit/pull/1353)
+
+Support for Slack's new security feature:
+
+* Request Signing with Slack Signing Secret - [Docs](https://botkit.ai/docs/readme-slack.html#securing-outgoing-webhooks-and-slash-commands) - [#1406](https://github.com/howdyai/botkit/pull/1406) thanks to @shishirsharma
+
+
 # 0.6.14
 
 * Fix for require_delivery option in Facebook bots. [PR #1312](https://github.com/howdyai/botkit/pull/1312)
